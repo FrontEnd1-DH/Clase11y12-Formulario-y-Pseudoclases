@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header.contenedor{
+    display: flex;  
+    flex-direction: column; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.descuento-encabezado{
+    background-color: #1CD1B0;
+    font-size: 1rem;
+    padding-left: 19px;
+}
+
+.encabezado{
+    background-color: #00669F;
+    display:flex;
+    flex-direction: row;
+}
+
+.encabezado p{
+    align-items: center;
+    color: #FFFFFF; 
+    display: flex;
+    font-size: 30px;
+}
+
+.menu{
+    background-color: #001D2D;
+    color: #FFFFFF; 
+    display:flex;
+    flex-direction: row;
+    justify-content: right; 
+}
+
+.menu ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    width: 250px;
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contenedor{
+    align-items:center ;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    width: 80vw;
+
+}
+
+.cards{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 23vw;
+}
+.fondo{
+    width: 100%;
+}
+
+.cards i{
+    position: relative;
+    top: -116px;
+    left: -68px
+}
+
+.bloque-perfil{
+    align-items: center;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    height: 320px;
+    line-height: 19px;
+    margin-top: -14px;
+    
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    width: 50%;
+}
+
+.cards h3{
+    display: flex;
+    justify-content: center;
+}
+
+.cards p{
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 15px;
+    text-align: justify;
+}
+
+.cards button{
+    align-items: center;
+    background-color: #00669F;
+    border: none;
+    color:#FFFFFF;
+    display: flex;
+    height: 48.52px;
+    justify-content: center;
+    width: 128.78px; 
+}
+
+button.redireccionar{
+    background-color: #00669F;
+    border: none;
+    border-radius: 100%;
+    height: 62px;
+    margin-left: 60px;
+    width: 62px;
+}
+
+button.redireccionar a{
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 52px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button.redireccionar a:hover{
+    background-color: #001D2D;
+    border-radius: 100%;
+}
+
+/*FOOTER*/
+
+footer{
+    align-items: center;
+    background-color: #00669F;
+    display: flex;
+    height: 61px;
+    justify-content: center;
+}
+
+footer p{
+    color: #FFF9F9;
+    font-size: 1rem;
+}
+
+
